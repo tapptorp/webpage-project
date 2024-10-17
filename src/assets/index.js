@@ -1,3 +1,7 @@
+//egna överst
+import mageseekergaren from "./mageseekergaren.jpg";
+
+//Fanns redan
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -75,8 +79,10 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+//lägger egna överst
 export {
-  brainwave,
+  mageseekergaren,
+  brainwave, //brainwave var överst av deras, under denna fanns redan alla
   check,
   check2,
   loading1,
