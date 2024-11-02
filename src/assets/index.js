@@ -1,5 +1,6 @@
 //egna överst
 import mageseekergaren from "./mageseekergaren.jpg";
+import garensplash from "./garen-splashart-vanlig.jpg";
 
 //Fanns redan
 import brainwave from "./brainwave.svg";
@@ -81,6 +82,7 @@ import twitter from "./socials/twitter.svg";
 
 //lägger egna överst
 export {
+  garensplash,
   mageseekergaren,
   brainwave, //brainwave var överst av deras, under denna fanns redan alla
   check,

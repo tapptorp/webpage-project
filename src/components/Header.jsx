@@ -40,8 +40,13 @@ const Header = () => {
       {/*w-full gör nav utdraget över hela */}
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="brainwave" />{" "}
-          {/*Ändrade tbx till brainwave pga testning, ska vara mageseeker */}
+          <img
+            src={mageseekergaren}
+            width={50}
+            height="auto"
+            alt="Mageseeker"
+          />{" "}
+          {/*Ändrade från tutorial, ska vara brainwave ist för mageseeker. ändrat width och height värdena. */}
         </a>
         <nav
           className={`${

@@ -39,11 +39,19 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 roundend-t-[o.9rem]" />
               <div className="aspect-[33/40] roundend-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 {/* Storlekar och grejer för Hero ramen raden över detta*/}
-                <img src={mageseekergaren} className="w-full" />
+                <img
+                  src={mageseekergaren}
+                  className="w-full"
+                  width={1024}
+                  height={490}
+                  alt="1stGaren"
+                />
               </div>
             </div>
           </div>
-          <div>
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:-w-[138%] lg:-top-[104%]">
+            {/*Bakgrundsbild till 1stGaren hero. Skippar en hel del typ 1 timme o 5 min in där det bara är om rörande bollar och ringar.
+            Jag skippade även en nmp install, npm install*/}
             <img
               src={heroBackground}
               className="w-full"
