@@ -3,6 +3,7 @@ import Benefits from "./components/Benefits";
 import Button from "./components/Button";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import BenefitDescriptions from "./components/BenefitsDescription";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Header />
         <Hero />
         <Benefits />
+        <BenefitDescriptions />
       </div>
       <ButtonGradient />
     </>
