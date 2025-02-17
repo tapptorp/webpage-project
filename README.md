@@ -7,4 +7,4 @@ Demo pictures, captured 17-02-2025.
 ![Demo pic 2, info](coaching webpage2.png)
 ![Demo pic 3, more info](coaching webpage3.png)
 
-![Demo pic 1, Header](https://github.com/tapptorp/webpage-project/blob/main/coachingWebpage1?raw=true)
+![Demo pic 1, Header](https://github.com/tapptorp/webpage-project/blob/main/coachingWebpage1.png?raw=true)
